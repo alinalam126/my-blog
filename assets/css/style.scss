@@ -1,0 +1,293 @@
+---
+---
+body{
+  color:#40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1{
+  margin: 8% auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  margin:2.5%;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999F;
+  margin: 0;
+
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 5% auto;
+}
+
+p{
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+a{
+  color: #11999E;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+//Start of styles for classes
+
+//********************navbar**********************
+.navigation {
+  position: fixed;
+  z-index: 999;
+  list-style: none;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background: #66BFBF;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: darken(#66BFBF, 2%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+//***************end navbar********************
+
+.top-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #e3fdfd;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.kitchen{
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+  margin-top: 5%;
+}
+
+.floating-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.middle-container{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.profile-pic{
+  max-width: 100%;
+  height: auto;
+
+}
+
+.intro{
+  width: 35%;
+  margin: auto;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}
+.food-skill{
+  display: flex;
+  align-self: center;
+  margin-right: 2%;
+  flex-shrink: 1;
+
+}
+
+.skill-row{
+  display: flex;
+  max-width: 60%;
+  text-align: left;
+  align-self: center;
+  margin: 5% 0;
+  flex-direction: row;
+
+}
+
+
+.skill-row2{
+  display: flex;
+  width: 60%;
+  text-align: left;
+  align-self: center;
+  margin-bottom: 5%;
+  flex-direction: row-reverse;
+
+}
+
+.text-align{
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  flex-shrink: 1;
+
+}
+
+
+.art-skill{
+  align-self: center;
+  margin-left: 0.5%;
+  display: flex;
+  flex-shrink: 1;
+}
+
+
+.contact-me{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.butn {
+  display: inline-block;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 4% 8%;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.footer-link{
+  margin: 10px 20px;
+
+}
+
+// Start of styling for portfolio.html
+.portfolio-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10% 0;
+  background-color: #e3fdfd;
+}
+.slider {
+  /* line them up horizontally */
+  display: flex;
+  /* allow for scrolling */
+  overflow-x: auto;
+
+  /* make it smooth on iOS */
+  /* -webkit-overflow-scrolling: touch; */
+}
+.slider div {
+  /* make sure the width is honored */
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.slider img {
+  width: 300px;
+  height: 300px;
+}
