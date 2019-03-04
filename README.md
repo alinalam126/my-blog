@@ -14,7 +14,7 @@ jekyll serve
 On your preferred web browser, go to [http://localhost:4000](http://localhost:4000).
 
 ### Online
-On your preferred web browser, go to [http://localhost:4000](http://localhost:4000).
+On your preferred web browser, go to [https://alinalam126.github.io/my-blog/](https://alinalam126.github.io/my-blog/).
 
 ## Design Decisions
 For this project, I tried to adhere to natural gaze patterns. For the landing page, I followed the Z-pattern. I know this starts with some logo in the upper left corner, but I didn't have time to create one. The body of my landing page was inspired by [Sean Halpin's personal site](seanhalpin.io). I used a size hierachy with the titles, and aligned the basic structure of my content to the center of the page. I tried making the page symmetrical in positioning of elements, which creates an order to the page. I also use lines of dots to break up the content into appropriate subcategories. With regards to my color choices, I picked a blue scheme because I think blue is percieved as a nice, neutral, calming color. To make for clearer color contrasts and transitions, I use color gradients when the user hovers and/or clicks on links and buttons. On my portfolio page, I also use a z-pattern and color contrasts to guide the user. One bug I ran into was the placement of my footer. I could not get it to stay at the bottom of the page without fixing its position, which I did not want to do because I thought it was distracting on my landing page.
